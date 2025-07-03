@@ -1,0 +1,20 @@
+.main__principal
+{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+
+    flex-wrap: wrap;
+    padding: 10%;
+
+    gap: 10em;
+}
+
+.main__secundario
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}

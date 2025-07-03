@@ -1,0 +1,40 @@
+.icon__principal
+{
+    width: var(--size-icon-default);
+    height: var(--size-icon-default);
+    border-radius: 25%;
+
+}
+
+.icon__logo
+{
+    width: var(--size-text-default);
+    height: var(--size-text-default);
+    border-radius: 2em;
+}
+
+
+.image__sizer
+{
+    width: 100%;
+    height: 100%;
+
+}
+
+@media screen and (max-width: 768px) {
+    .icon__principal {
+        width: 1.5em;
+        height: 1.5em;
+    }
+
+    .icon__logo {
+        width: 1em;
+        height: 1em;
+    }
+
+    .image__sizer {
+        width: 100%;
+        height: 100%;
+    }
+    
+}

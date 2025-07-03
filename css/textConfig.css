@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.cabecalho__texto_principal
+{
+    font-size: var(--size-text-large);
+    color: #fff;
+    text-decoration: none;
+    margin: 5%;
+    white-space: nowrap;
+
+
+    
+
+    font-family: 'Playfair Display', serif;
+}
+
+.cabecalho__texto_principal:hover
+{
+    color: var(--color-text-press);
+}
+
+.sobre{
+    margin: 1em;
+    background-color: var(--color-background-secondary);
+    padding: 0.1em 3em 2em 3em;
+    border-radius: 10px;
+    font-size: 20px;
+    color: var(--color-background-primary);
+    text-align: justify;
+
+}
+
+.sobre__titulo{
+    font-size:40px;
+    padding: 0.5em;
+}
+
+.link__text
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+.arte__texto_principal
+{
+
+
+    font-size: var(--size-text-large);
+    color: var(--color-text-default);
+    text-decoration: none;
+    margin-top: 5%;
+    font-family: 'Playfair Display', serif;
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .cabecalho__texto_principal {
+        font-size: var(--size-text-small);
+    }
+
+    .arte__texto_principal {
+        font-size: var(--size-text-small);
+    }
+    
+}

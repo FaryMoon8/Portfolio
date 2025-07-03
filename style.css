@@ -1,0 +1,63 @@
+@import url('css/reset.css');
+@import url('css/textConfig.css');
+@import url('css/header.css');
+@import url('css/imageConfig.css');
+@import url('css/main.css');
+@import url('css/footer.css');
+
+:root
+{
+    
+--color-primary: #000000;
+--color-secondary: #BBBBC9;
+
+
+--color-background-primary: #f8faf9;
+--color-background-secondary: #1b8f89;
+
+--color-text-press: #9adfeb;
+--color-text-default: #000000;
+
+--size-text-default: 2px;
+--size-text-large: 3em;
+--size-text-small: 1.5em;
+
+--size-icon-default: 2em;
+--size-icon-large: 5em;
+
+}
+
+body
+{
+background-color: var(--color-background-primary);
+
+width: 100%;
+height: 100vh;
+}
+
+
+header
+{
+background-color: var(--color-background-secondary);
+}
+
+footer
+{
+width: 100%;
+}
+
+.tamanho{
+    width: 460px;
+}
+
+.tamanho__quadrado{
+    width: 450px;
+}
+
+.arte__texto_principal{
+    font-size: var(--size-text-small);
+}
+
+.cabecalho__texto_principal{
+    font-size: var(--size-text-small);
+}

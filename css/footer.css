@@ -1,0 +1,36 @@
+.icon__voltar_topo {
+    width: var(--size-text-small);
+    height: var(--size-text-small);
+    text-align: center;
+    justify-content: center;
+}
+
+.text__voltar_topo {
+    font-size: var(--size-text-small);
+    color: var(--color-text-default);
+    text-decoration: none;
+    font-family: 'Fira Code', monospace;
+
+}
+
+.text__voltar_topo:hover {
+    color: var(--color-text-press);
+    text-decoration: none;
+}
+
+.footer__principal {
+
+    display: flex;
+    justify-content: center;
+
+    padding: 5%;
+}
+
+.link__footer
+{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+

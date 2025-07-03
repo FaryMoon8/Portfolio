@@ -1,0 +1,20 @@
+.cabecalho__principal
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 3%;
+
+}
+
+.cabecalho__secundario
+{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 2em;
+    margin: 0.5em;
+
+
+}
